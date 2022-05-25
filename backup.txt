@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css')}}">
+</head>
+<body class="bg-dark">
+
+<h1 class="text-5xl bg-rose text-white  pt-20 pl-20 pb-10">Movies</h1>
+<div>
+<label class="relative block">
+  <span class="sr-only">Search</span>
+  <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+    <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20"><!-- ... --></svg>
+  </span>
+  <input class="placeholder:italic placeholder:text-slate-400 block bg-white_ w-64 ml-36 mt-10 border border-violin rounded-md py-2  pl-9 pr-3 shadow-sm focus:outline-none focus:border-rose focus:ring-l_green focus:ring-1 sm:text-sm" placeholder="Search for Movies..." type="text" name="search"/>
+</label>
+
+<div class="flex flex-col mb-20">
+    <div class="flex flex-col xl:flex-row">
+<div class="ml-32 2xl:ml-64 pt-20">
+    <img src="./pic/movies/m1.jpg" class="w-64">
+    <h1 class="text-3xl text-white_ pl-16 mt-4 mb-4">The hell</h1>
+    <a href="{{ url('/m1') }}" class="text-lg bg-violin text-white_ rounded-xl px-4 py-2 ml-14 mt-4">Show more</a>
+</div>
+<div class="ml-32 lg:ml-64 pt-20">
+    <img src="./pic/movies/m2.jpg" class="w-64">
+    <h1 class="text-3xl text-white_ pl-16 mt-4 mb-4">The hell</h1>
+    <a href="{{ url('/m1') }}" class="text-lg bg-violin hover:bg-rose text-white_ rounded-xl px-4 py-2 ml-14 mt-4">Show more</a>
+</div>
+<div class="ml-32 lg:ml-64 pt-20">
+    <img src="./pic/movies/m3.jpg" class="w-64">
+    <h1 class="text-3xl text-white_ pl-16 mt-4 mb-4">The hell</h1>
+    <a href="{{ url('/m1') }}" class="text-lg bg-violin hover:bg-rose text-white_ rounded-xl px-4 py-2 ml-14 mt-4">Show more</a>
+</div>
+</div>
+<div class="flex flex-col xl:flex-row">
+<div class="ml-32 2xl:ml-64 pt-20">
+    <img src="./pic/movies/m4.jpg" class="w-64">
+    <h1 class="text-3xl text-white_ pl-16 mt-4 mb-4">The hell</h1>
+    <a href="{{ url('/m1') }}" class="text-lg bg-violin hover:bg-rose text-white_ rounded-xl px-4 py-2 ml-14 mt-4">Show more</a>
+</div>
+<div class="ml-32 lg:ml-64 pt-20">
+    <img src="./pic/movies/m6.jpg" class="w-64">
+    <h1 class="text-3xl text-white_ pl-16 mt-4 mb-4">The hell</h1>
+    <a href="{{ url('/m1') }}" class="text-lg bg-violin hover:bg-rose text-white_ rounded-xl px-4 py-2 ml-14 mt-4">Show more</a>
+</div>
+<div class="ml-32 lg:ml-64 pt-20">
+    <img src="./pic/movies/m7.jpg" class="w-64">
+    <h1 class="text-3xl text-white_ pl-16 mt-4 mb-4">The hell</h1>
+    <a href="{{ url('/m1') }}" class="text-lg bg-violin hover:bg-rose text-white_ rounded-xl px-4 py-2 ml-14 mt-4">Show more</a>
+</div>
+</div>
+</div>
+</body>
+</html> -->
